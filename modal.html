@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <link rel="stylesheet" href="../Php Batch 11am/css/bootstrap.css">
+    <script src="../Php Batch 11am/jquery-3.4.1.js"></script>
+    <script src="../Php Batch 11am/js/bootstrap.js"></script>
+</head>
+<body>
+    <div>
+        <button class="btn btn-danger" data-target="#hit" data-toggle="modal">
+            Click here for surprise !
+        </button>
+    </div>
+    <div class="modal" id="hit">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header display-4"> Here's your surprise Buddy
+                    <span class="close" data-dismiss="modal">&times;</span>
+                </div>
+                <div class="modal-body">Body</div>
+                <div class="modal-footer">Footer
+                    <button class="btn btn-light" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Alert Message -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="alert alert-dark fade show">
+                    Hello Buddy
+                    <span class="close" data-dismiss="alert">&times;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
